@@ -4,6 +4,6 @@ async function loadConfig() {
     return result.json();
 }
 
-// let apiUrl = (location.hostname === "localhost" || location.hostname === "127.0.0.1") ? "http://localhost:3000":"https://orinoco-mb.herokuapp.com";
+let apiUrl = (location.hostname === "localhost" || location.hostname === "127.0.0.1") ? "http://localhost:8000":"https://orinoco-dev-api.herokuapp.com/";
 
-let apiUrl = "https://orinoco-dev-api.herokuapp.com/";
+// let apiUrl = "https://orinoco-dev-api.herokuapp.com/";
